@@ -22,7 +22,10 @@
 
 (10) 实现经过点位时显示到访时间的功能，同样需要修改`_moveNext`: 上述第(2)步中处理每段坐标时，增加参数存储每段坐标的长度，并计算出每段位置最大的坐标。小车经过时，如果该段位置的最大坐标大于当前坐标，即表示小车在当前路段，即可用当前路段下标获取对应的数据，进而显示该路段起点信息。
 
+    由于也是第一次学习百度地图路书的使用，有些逻辑可能写的较为混乱，有待优化的地方应该还有不少，望见谅，望指正~
 
+**代码地址**： [https://github.com/liushukang3/carMap](url)
 
-    注意: vue-baidu-map使用的是JavaScript API v2.0的接口,
+    注意: 
+    `vue-baidu-map`使用的是`JavaScript API v2.0`的接口。
     文档地址: https://lbsyun.baidu.com/cms/jsapi/reference/jsapi_reference.html
